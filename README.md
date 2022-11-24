@@ -1,4 +1,4 @@
-# Remix Auth - Strategy Template
+# Remix Auth - Fido2 (WebAuthN) Strategy
 
 > A template for creating a new Remix Auth strategy.
 

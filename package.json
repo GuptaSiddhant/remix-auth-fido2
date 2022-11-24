@@ -1,6 +1,6 @@
 {
-  "name": "remix-auth-strategy-template",
-  "version": "0.0.0",
+  "name": "remix-auth-fido2",
+  "version": "0.0.2",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "scripts": {
@@ -15,7 +15,9 @@
     "remix-auth",
     "auth",
     "authentication",
-    "strategy"
+    "strategy",
+    "fido2",
+    "webauthn"
   ],
   "license": "MIT",
   "files": [
