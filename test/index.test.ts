@@ -1,12 +1,12 @@
-import { createCookieSessionStorage } from "@remix-run/server-runtime";
+// import { createCookieSessionStorage } from "@remix-run/server-runtime";
 import { MyStrategy } from "../src";
 
 describe(MyStrategy, () => {
   let verify = jest.fn();
   // You will probably need a sessionStorage to test the strategy.
-  let sessionStorage = createCookieSessionStorage({
-    cookie: { secrets: ["s3cr3t"] },
-  });
+  // let sessionStorage = createCookieSessionStorage({
+  //   cookie: { secrets: ["s3cr3t"] },
+  // });
 
   beforeEach(() => {
     jest.resetAllMocks();
