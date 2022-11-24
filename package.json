@@ -25,6 +25,11 @@
     "package.json",
     "README.md"
   ],
+  "author": {
+    "name": "Siddhant Gupta",
+    "email": "me@guptasiddhant.com",
+    "url": "https://guptasiddhant.com"
+  },
   "peerDependencies": {
     "@remix-run/server-runtime": "^1.0.0"
   },
